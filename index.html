@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Event Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>🎯 JavaScript Event Handling & Interactive Elements 🚀</h1>
+
+    <!-- Button for Click Event -->
+    <button id="changeTextBtn">Click Me!</button>
+
+    <!-- Hover Effect -->
+    <div id="hoverBox">Hover over me!</div>
+
+    <!-- Keypress Detection -->
+    <input type="text" id="keypressInput" placeholder="Type something...">
+
+    <!-- Secret Action (Double Click) -->
+    <p id="secretMessage">Double-click me for a surprise!</p>
+
+    <!-- Image Gallery -->
+    <div class="gallery">
+        <img src="https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" id="galleryImg" alt="Learning Web Development">
+        <button id="nextImgBtn">Next Image</button>
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs">
+        <button class="tab-btn" data-tab="tab1">Why Learn Web Development?</button>
+        <button class="tab-btn" data-tab="tab2">How to Get Started?</button>
+        <button class="tab-btn" data-tab="tab3">Resources & Tools</button>
+
+        <div id="tab1" class="tab-content">
+            <h2>Why Learn Web Development?</h2>
+            <p>Web development is a valuable skill that allows you to create websites, applications, and digital experiences. It opens doors to high-paying jobs and freelance opportunities.</p>
+            <img src="https://images.pexels.com/photos/4974916/pexels-photo-4974916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Reasons to Learn Web Development">
+        </div>
+
+        <div id="tab2" class="tab-content">
+            <h2>How to Get Started?</h2>
+            <p>Start by learning HTML, CSS, and JavaScript. Then, explore frameworks like React or Vue.js. Practice by building small projects and experimenting with code.</p>
+            <img src="https://images.pexels.com/photos/12899188/pexels-photo-12899188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Getting Started with Web Development">
+        </div>
+
+        <div id="tab3" class="tab-content">
+            <h2>Resources & Tools</h2>
+            <p>Use platforms like FreeCodeCamp, MDN Web Docs, and Scrimba to learn. Tools like VS Code, GitHub, and Chrome DevTools will help you develop efficiently.</p>
+            <img src="https://images.pexels.com/photos/11035471/pexels-photo-11035471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Web Development Resources">
+        </div>
+    </div>
+
+    <!-- Form Validation -->
+    <form id="myForm">
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <input type="password" id="password" placeholder="Enter password (min 8 chars)" required>
+        <button type="submit">Submit</button>
+        <p id="formFeedback"></p>
+    </form>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
